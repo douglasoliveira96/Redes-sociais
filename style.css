@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    
+    background-attachment: fixed;
 }
 ul {
     position: relative;
@@ -20,8 +20,8 @@ ul {
 ul li {
     position: relative;
     list-style: none;
-    width: 60px;
-    height: 60px;
+    width: 85px;
+    height: 85px;
     margin: 0 30px;
     transform: rotate(-30deg) skew(25deg);
     background: #01465E
@@ -38,7 +38,7 @@ ul li span {
     align-items: center;
     justify-content: center;
     color: #fff;
-    font-size: 30px !important;
+    font-size: 50px !important;
 }
 ul li:hover span {
     box-shadow: -1px 1px 1px rgba(0,0,0,.1);
